@@ -53,7 +53,9 @@ Only the address of the Relayer can provide information in this smart contract.
 
 ### Create a Relayer on Defender Openzeppelin 
 and choose Goerli testnet
-!()[https://gateway.pinata.cloud/ipfs/QmU7kJAPRnfXsQgiSUiZGFSxuQ8irwD7xuBgmCCPaZZGc3]
+!()[]
+
+<img src="./oracle_relayer_address.PNG">
 
 ### Create an Autotask in Openzeppelin Defender
 Yu can schedule the autotask to renew the weather data every minute
@@ -78,6 +80,7 @@ confirm transaction with Metamask
 ### Set up the parameters in Autotask.js
 Once the contract is deployed, copy the contract address and the contract ABI in the autotask.js 
 !()[https://gateway.pinata.cloud/ipfs/QmXfS824j4CBEJH9bWtwonRGgVpzZRGVX4ZG2HdEu4J9D2]
+
 
 
 ### Make sure that you have test Ether on your Relayer to run the Autotask every 1 minute
