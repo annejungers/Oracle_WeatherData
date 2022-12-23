@@ -42,9 +42,9 @@ The city in this case is ***Brussels 50.85 lat 4.35 long***
 
 ## Tools used
 
-+ (Openzeppelin Defender)[https://defender.openzeppelin.com/]
-+ (Remix IDE)[https://remix.ethereum.org/]
-+ (Open Weather Data API)[https://openweathermap.org/]
++ [Openzeppelin Defender](https://defender.openzeppelin.com/)
++ [Remix IDE](https://remix.ethereum.org/)
++ [Open Weather Data API](https://openweathermap.org/)
 
 ## Steps
 
@@ -53,13 +53,13 @@ Only the address of the Relayer can provide information in this smart contract.
 
 ### Create a Relayer on Defender Openzeppelin 
 and choose Goerli testnet
-!()[]
+![](https://gateway.pinata.cloud/ipfs/QmU7kJAPRnfXsQgiSUiZGFSxuQ8irwD7xuBgmCCPaZZGc3
 
-<img src="./oracle_relayer_address.PNG">
+<img src="./images/oracle_relayer_address.PNG">
 
 ### Create an Autotask in Openzeppelin Defender
 Yu can schedule the autotask to renew the weather data every minute
-!()[https://gateway.pinata.cloud/ipfs/QmX1aHytMkGBXzQMNx8Nqxxo8eBA31Y86t57Dpnd1m46Ef]
+![](https://gateway.pinata.cloud/ipfs/QmX1aHytMkGBXzQMNx8Nqxxo8eBA31Y86t57Dpnd1m46Ef)
 
 Then, we add the following information in the **autotask.js** file:
 - the ABI of the contract (that we have in remix)
@@ -71,15 +71,16 @@ Then, we add the following information in the **autotask.js** file:
 
 ### Deploy smart contract by selecting injecting provider (Metamask)
 and add the relayer address
-!()[https://gateway.pinata.cloud/ipfs/QmVtNrWhgjDWgLGv2Wzxu5FbFb46ysEFg9m5fykWULKXax]
+![](https://gateway.pinata.cloud/ipfs/QmVtNrWhgjDWgLGv2Wzxu5FbFb46ysEFg9m5fykWULKXax)
 
 confirm transaction with Metamask
-!()[https://gateway.pinata.cloud/ipfs/QmSL4qEzkrQGvcirmdkq1zFGoUZFMgMurBrh34YhqyK7Gy]
+![](https://gateway.pinata.cloud/ipfs/QmSL4qEzkrQGvcirmdkq1zFGoUZFMgMurBrh34YhqyK7Gy)
 
 
 ### Set up the parameters in Autotask.js
 Once the contract is deployed, copy the contract address and the contract ABI in the autotask.js 
-!()[https://gateway.pinata.cloud/ipfs/QmXfS824j4CBEJH9bWtwonRGgVpzZRGVX4ZG2HdEu4J9D2]
+![](https://gateway.pinata.cloud/ipfs/QmXfS824j4CBEJH9bWtwonRGgVpzZRGVX4ZG2HdEu4J9D2)
+
 
 
 
