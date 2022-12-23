@@ -81,5 +81,7 @@ Once the contract is deployed, copy the contract address and the contract ABI in
 
 
 ### Make sure that you have test Ether on your Relayer to run the Autotask every 1 minute
+So that the temperature will be updated every 2 minutes
+
 
 
