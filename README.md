@@ -55,7 +55,6 @@ Only the address of the Relayer can provide information in this smart contract.
 and choose Goerli testnet
 ![](https://gateway.pinata.cloud/ipfs/QmU7kJAPRnfXsQgiSUiZGFSxuQ8irwD7xuBgmCCPaZZGc3)
 
-<img src="images/oracle_relayer_address.PNG">
 
 ### Create an Autotask in Openzeppelin Defender
 Yu can schedule the autotask to renew the weather data every minute
